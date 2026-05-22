@@ -998,7 +998,7 @@ jobs:
                   gameFrame.onload = function() {
                     startOverlay.classList.add('hidden');
                     gameFrame.style.display = 'block';
-                    fullscreenBtn.style.display = 'block';
+                    fullscreenBtn.style.display = 'none';
                   };
                   gameFrame.onerror = function() {
                     loading.innerHTML = '<p style="color: #ff6b6b;">Failed to load game</p>';
